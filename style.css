@@ -3,72 +3,127 @@
     padding: 0;
 }
 
-header{
-    background-color: transparent;
+body {
+    background-color: beige;
+    font-family: sans-serif;
 }
 
-body{
-    background-color: grey;
-}
-
-header, section#profil, section#activities{
-    width: 800px;
+header, nav, section, #bio-container{
+    width: 1000px;
+    background-color: white;
     margin: auto;
-    padding: 15px;
+    border-bottom: 3px solid darkgray;
 }
 
-section#profil h1, section#activities h1{
-    margin-bottom: 20px;
+header img{
+    width: 150px;
+    float: left;
+    margin-left: 20px;
 }
 
-.item-activity{
-    padding: 10px;
+header h1{
+    float: left;
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 25px;
 }
 
-.item-activity img, .item-activity p{
-    width: 700px;
-    display: block;
-    margin: auto;
+ul li{
+    list-style: none;
 }
 
-.item-activity p{
-    text-align: justify;
-    margin-top: 10px;
-    margin-bottom: 25px;
+nav{
+    padding: 40px 0;
 }
 
-section#profil h1, section#activities h1{
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.last-menu{
+    margin-right: 40px;
+}
+
+#left-menu{
+    float: left;
+}
+
+#right-menu{
+    float: right;
+}
+
+section h2{
     text-align: center;
     font-size: 32px;
-    background-color: pink;
-    color: black;
-    padding: 10px;
+    padding: 20px 0;
 }
 
-header, section#profil, section#activities{
-    background-color: white;
-}
-
-#profil-content{
-    width: 700px;
-    margin: auto;
-}
-
-#profil-content img{
-    width: 200px;
+article{
+    width: 285px;
     float: left;
-    margin-right: 20px;
+    margin-left: 35px;
 }
 
-#profil-content #deskripsi-profil {
-    width: 450px;
-    float: left;
+article img{
+    margin-bottom: 15px;
 }
 
-#profil-content #deskripsi-profil p{
+article p{
     text-align: justify;
+}
+
+article button{
+    display: block;
+    margin: 20px auto;
+}
+
+#bio-container img{
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#bio-info{
+    width: 770px;
+    float: left;
+}
+
+#bio-info p{
+    text-align: justify;
+    margin-right: 30px;
+}
+
+#bio-info .text-right{
+    text-align: right;
+    margin-right: 40px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+#bio-info ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
+
+#bio-info h3{
+    text-align: center;
+    margin: 20px 0;
+
 }
 
 .fix-container{
     clear: both;
 }
+
